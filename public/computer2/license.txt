@@ -1,0 +1,11 @@
+Model Information:
+* title:	Aboflah Salute Animation
+* source:	https://sketchfab.com/3d-models/aboflah-salute-animation-6c3d42d45832486f9ee6783dec98e823
+* author:	DFLEX (https://sketchfab.com/DFLEX)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Aboflah Salute Animation" (https://sketchfab.com/3d-models/aboflah-salute-animation-6c3d42d45832486f9ee6783dec98e823) by DFLEX (https://sketchfab.com/DFLEX) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
