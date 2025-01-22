@@ -84,6 +84,7 @@ const Contact = () => {
            <button
              type='submit'
              className='bg-tertiary py-3 px-8 rounded-xl border  min-w-52 text-white font-bold shadow-md m-auto mt-5  shadow-primary'
+             disabled={!(form.email && form.name && form.message)}
            >
              Send
            </button>
