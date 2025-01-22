@@ -19,7 +19,7 @@ const Header = () => {
         className={`absolute inset- top-[120px] lg:left-7 md:top-[80px] lg:top-[100px] z-10  max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-start gap-5`}
       >
         <h1 className={`${styles.heroHeadText} text-[#c7b6f7]`}>
-          I'm {""} <br />
+          Hi, I'm {""} <br />
           <span className="text-[#915EFF]">Enoch Promise</span> <br />
           <span className="lg:text-7xl text-[#c7b6f7]">
             A Full Stack Web, Mobile{" "}
