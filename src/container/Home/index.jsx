@@ -2,10 +2,10 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { About, Works, MobileAbout } from "../../components";
 import { Header } from "../../container";
-import {Footer} from "../../container";
+import { Footer } from "../../container";
 
 import "../../App.css";
-import {MobileWorks} from "../../components";
+import { MobileWorks } from "../../components";
 // import Contact from './container/Contact';
 
 const MyExperience = React.lazy(() => import("../../components/Experience"));
@@ -48,24 +48,25 @@ const Home = () => {
         <MyExperience />
       </Suspense>
 
-      <Suspense fallback={<div>Loading...</div>}>
-      <MyTech />
-      </Suspense>
+      {!isMobile && (
+        <Suspense fallback={<div>Loading...</div>}>
+          <MyTech />
+        </Suspense>
+      )}
 
       {!isMobile ? <Works /> : <MobileWorks />}
 
       {/* <Feedbacks /> */}
 
       <div className="relative z-0 py-[96px]" id="contact">
-      <MyContact />
+        <MyContact />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
 
 export default Home;
-
 
 // {!isMobile ? (
 //   <>
