@@ -36,7 +36,7 @@ const index = () => {
           </div>
         ) : (
           <div className="flex flex-row space-x-5">
-            {/* <Contact /> */}
+            <Contact />
             {/* <Test2 /> */}
           </div>
         )}

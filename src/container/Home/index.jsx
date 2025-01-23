@@ -48,11 +48,10 @@ const Home = () => {
         <MyExperience />
       </Suspense>
 
-      {!isMobile && (
+      
         <Suspense fallback={<div>Loading...</div>}>
           <MyTech />
         </Suspense>
-      )}
 
       {!isMobile ? <Works /> : <MobileWorks />}
 

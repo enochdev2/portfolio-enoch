@@ -175,7 +175,19 @@ const Mobiletechnologies = [
     icon: typescript,
   },
   {
-    name: "React JS and React Native",
+    name: "solidity",
+    icon: solidity,
+  },
+  {
+    name: "Rust",
+    icon: Rust1,
+  },
+  {
+    name: "Move",
+    icon: move,
+  },
+  {
+    name: "React JS",
     icon: reactjs,
   },
   // {
@@ -183,8 +195,17 @@ const Mobiletechnologies = [
   //   icon: redux,
   // },
   
+  // {
+  //   name: "Next JS",
+  //   icon: redux,
+  // },
+  
   {
     name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Express JS",
     icon: nodejs,
   },
   {
@@ -195,22 +216,9 @@ const Mobiletechnologies = [
     name: "Three JS",
     icon: threejs,
   },
-
-  {
-    name: "solidity",
-    icon: solidity,
-  },
   {
     name: "Anchor",
     icon: Anchor,
-  },
-  {
-    name: "Rust and Anchor",
-    icon: Rust1,
-  },
-  {
-    name: "Move",
-    icon: move,
   },
   {
     name: "Sui Framework ",
@@ -469,7 +477,7 @@ const projects = [
   },
 ];
 
-export { services, technologies, images, data,  experiences, testimonials, projects };
+export { services, technologies, Mobiletechnologies, images, data,  experiences, testimonials, projects };
 
 
 

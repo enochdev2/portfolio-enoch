@@ -82,15 +82,14 @@ const ProjectCard = ({
 
 const MobileWorks = () => {
   return (
-    <div className="mb-10 mt-0">
+    <div className="mb-10 mt-0 shadow-3">
       <motion.div variants={mobiletextVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+        <p
           className="mt-3 text-secondary text-[17px] max-w-6xl leading-[30px]"
         >
           The following projects demonstrate my skills and experience through
@@ -98,7 +97,7 @@ const MobileWorks = () => {
           links to the code repositories on GitHub and live demos. These
           projects highlight my ability to tackle complex problems, work with
           various technologies, and manage projects effectively..
-        </motion.p>
+        </p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
