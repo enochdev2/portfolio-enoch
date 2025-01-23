@@ -75,13 +75,13 @@ const Person = () => {
           castShadow
           shadow-mapSize={1024}
         /> */}
-        <directionalLight intensity={0.7} position={[3, 2, 2]}  />
+        <directionalLight intensity={0.8} position={[3, 2, 2]}  />
         {/* <pointLight intensity={8} /> */}
         <primitive
          ref={human}
           object={scene}
           // scale={isMobile ? 0.7 : 0.75}
-          scale={2.3}
+          scale={2.4}
           position={[0.5, -2.6, 1.7]}
           // position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
           // loop
