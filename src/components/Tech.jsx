@@ -30,7 +30,7 @@ const Tech = () => {
 
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
-      <p className=" font-bold text-3xl w-full text-left underline text-purple-300">
+      <p className=" font-bold text-4xl w-full text-left underline text-[#915EFF]">
         {" "}
         Skills
       </p>
