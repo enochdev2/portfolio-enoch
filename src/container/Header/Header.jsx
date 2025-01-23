@@ -35,7 +35,7 @@ const Header = () => {
           </span>
         </h1>
         <p
-          className={`${styles.heroSubText} mt-2 z-  text-white-100 max-w-3xl font-san lg:mt-5   overflow-hidden`}
+          className={`${styles.heroSubText} mt-2 z-  text-white-100 max-w-3xl font-san lg:mt-5 font-semi-bold  overflow-hidden`}
         >
           I specialize in Web2 and Blockchain development, focusing on Web3
           technologies, smart contracts (
