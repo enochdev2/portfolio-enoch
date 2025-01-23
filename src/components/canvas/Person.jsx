@@ -66,7 +66,7 @@ const Person = () => {
     return (
       <mesh>
         <ambientLight intensity={1} />
-        <hemisphereLight intensity={-1} groundColor='purple' />
+        <hemisphereLight intensity={-1.2} groundColor='purple' />
         {/* <spotLight
           position={[20, 50, 10]}
           angle={0.12}
@@ -75,14 +75,14 @@ const Person = () => {
           castShadow
           shadow-mapSize={1024}
         /> */}
-        <directionalLight intensity={1} position={[3, 2, 2]}  />
+        <directionalLight intensity={0.7} position={[3, 2, 2]}  />
         {/* <pointLight intensity={8} /> */}
         <primitive
          ref={human}
           object={scene}
           // scale={isMobile ? 0.7 : 0.75}
-          scale={2.2}
-          position={[-0.9, -2, 1.7]}
+          scale={2.3}
+          position={[0.5, -2.6, 1.7]}
           // position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
           // loop
           rotation={[0.1, 1, 0]}
@@ -122,7 +122,7 @@ const PersonCanvas = () => {
       // frameloop='demand'
       shadows
       dpr={[1, 2]}
-      // camera={{ position: [15, 3, 5], fov: 25 }}
+      camera={{ position: [3, -4, 21], fov: 13 }}
       gl={{ preserveDrawingBuffer: true }}
     >
           {/* <pointLight position={[10, 10, 10]} /> */}

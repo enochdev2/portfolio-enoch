@@ -16,7 +16,7 @@ const Header = () => {
       id="home"
     >
       <div
-        className={`absolute inset- top-[120px] lg:left-7 md:top-[80px] lg:top-[100px] z-10  max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-start gap-5`}
+        className={`absolute inset- top-[80px] lg:left-7 md:top-[80px] lg:top-[100px] z-10  max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-start gap-5`}
       >
         <h1 className={`${styles.heroHeadText} text-[#c7b6f7]`}>
           Hi, I'm {""} <br />
@@ -35,7 +35,7 @@ const Header = () => {
           </span>
         </h1>
         <p
-          className={`${styles.heroSubText} mt-2 z-  text-white-100 max-w-3xl  overflow-hidden`}
+          className={`${styles.heroSubText} mt-2 z-  text-white-100 max-w-3xl font-san lg:mt-5   overflow-hidden`}
         >
           I specialize in Web2 and Blockchain development, focusing on Web3
           technologies, smart contracts (
