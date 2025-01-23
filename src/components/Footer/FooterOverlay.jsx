@@ -6,7 +6,7 @@ const Footer = () => (
   <section className={`${styles.flexCenter} flex-col px-5 md:px-24 py-5 `}>
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-normal w-full justi text-center text-purple-300 text-[18px] leading-[27px] text-white">
+      <p className="font-poppins font-normal w-full justi text-center text-purple-300 text-[18px] leading-[27px] text-purple-300">
         Copyright Ⓒ 2025 Enoch Promise.
       </p>
       <p className="font-poppins font-normal w-full justi text-center text-purple-300 text-[18px] leading-[27px] text-white">

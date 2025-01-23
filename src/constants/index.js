@@ -37,6 +37,9 @@ import {
   aiImage,
   icomarketplace,
   frontenddesign,
+  aptos,
+  move,
+  sui
 } from "../assets";
 
 export const navLinks = [
@@ -95,7 +98,23 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS and React Native",
+    name: "solidity",
+    icon: solidity,
+  },
+  // {
+  //   name: "Anchor",
+  //   icon: Anchor,
+  // },
+  {
+    name: "Rust and Anchor",
+    icon: Rust1,
+  },
+  {
+    name: "Move",
+    icon: move,
+  },
+  {
+    name: "React JS and Next JS",
     icon: reactjs,
   },
   // {
@@ -116,34 +135,95 @@ const technologies = [
   //   icon: threejs,
   // },
 
+ 
+  {
+    name: "Sui Framework ",
+    icon: sui,
+  },
+  {
+    name: "Aptos Framework ",
+    icon: aptos,
+  },
+  {
+    name: "React Native",
+    icon: React_Native,
+  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+];
+const Mobiletechnologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3 ",
+    icon: css,
+  },
+  {
+    name: " Tailwind CSS",
+    icon: tailwind ,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS and React Native",
+    icon: reactjs,
+  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+
   {
     name: "solidity",
     icon: solidity,
   },
-  // {
-  //   name: "Anchor",
-  //   icon: Anchor,
-  // },
+  {
+    name: "Anchor",
+    icon: Anchor,
+  },
   {
     name: "Rust and Anchor",
     icon: Rust1,
   },
   {
     name: "Move",
-    icon: Rust1,
+    icon: move,
   },
   {
-    name: "Sui and Aptos Framework ",
-    icon: Rust1,
+    name: "Sui Framework ",
+    icon: sui,
   },
-  // {
-  //   name: "Aptos Framework ",
-  //   icon: Rust1,
-  // },
-  // {
-  //   name: "React Native",
-  //   icon: React_Native,
-  // },
+  {
+    name: "Aptos Framework ",
+    icon: aptos,
+  },
+  {
+    name: "React Native",
+    icon: React_Native,
+  },
   // {
   //   name: "docker",
   //   icon: docker,
@@ -205,30 +285,17 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
-  {
-    title: "Full-Stack Web Developer",
-    company_name: "Freelancing",
-    icon: creator,
-    iconBg: "#383E56",
-    date: "Nov. 2023",
-    points: [
-      "Expanded application functionality and optimized code performance, achieving a notable 35% speed increase in software operation.",
-      "Engineered an efficient database management system, enhancing data retrieval time by an impressive 25%.",
-      "Seamlessly integrated with Restful APIs,",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
-  },
   // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
+  //   title: "Full-Stack Web Developer",
+  //   company_name: "Freelancing",
+  //   icon: creator,
+  //   iconBg: "#383E56",
+  //   date: "Nov. 2023",
   //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Expanded application functionality and optimized code performance, achieving a notable 35% speed increase in software operation.",
+  //     "Engineered an efficient database management system, enhancing data retrieval time by an impressive 25%.",
+  //     "Seamlessly integrated with Restful APIs,",
   //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
   //   ],
   // },
 ];
