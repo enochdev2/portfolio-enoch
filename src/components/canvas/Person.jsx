@@ -66,7 +66,7 @@ const Person = () => {
     return (
       <mesh>
         <ambientLight intensity={1} />
-        <hemisphereLight intensity={-1.2} groundColor='purple' />
+        <hemisphereLight intensity={-1.3} groundColor='purple' />
         {/* <spotLight
           position={[20, 50, 10]}
           angle={0.12}
@@ -75,7 +75,7 @@ const Person = () => {
           castShadow
           shadow-mapSize={1024}
         /> */}
-        <directionalLight intensity={0.8} position={[3, 2, 2]}  />
+        <directionalLight intensity={1} position={[3, 2, 2]}  />
         {/* <pointLight intensity={8} /> */}
         <primitive
          ref={human}
