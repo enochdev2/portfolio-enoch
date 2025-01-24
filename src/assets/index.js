@@ -40,6 +40,7 @@ import durchex from "./durchex.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tokenswap from "./tokenswap.jpg";
 import cyrus from "./cyrus.jpg";
 import communityhub from "./communityhub.png"
 import frontenddesign from "./front.png";
@@ -100,7 +101,7 @@ export {
   tripguide,
   healthcare,
   sui, 
-  cyrus,
   aptos,
   move,
+  cyrus
 };
