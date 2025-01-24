@@ -11,6 +11,8 @@ import {
   typescript,
   html,
   css,
+  cyrus,
+  durchex,
   reactjs,
   redux,
   tailwind,
@@ -242,7 +244,7 @@ const experiences = [
   {
     title: "Blockchain Developer",
     company_name: "Durchex Ltd",
-    icon: starbucks,
+    icon: durchex,
     iconBg: "#383E56",
     date: "October 2024 - December 2024",
     points: [
@@ -256,7 +258,7 @@ const experiences = [
   {
     title: "Web3 Community Moderation",
     company_name: "Cyrus Community",
-    icon: starbucks,
+    icon: cyrus,
     iconBg: "#383E56",
     date: "August 2024 - December 2024",
     points: [

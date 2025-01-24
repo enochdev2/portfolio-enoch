@@ -36,10 +36,11 @@ import tesla from "./company/tesla.png";
 
 
 import healthcare from "./healthcare.png";
+import durchex from "./durchex.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import tokenswap from "./tokenswap.jpg";
+import cyrus from "./cyrus.jpg";
 import communityhub from "./communityhub.png"
 import frontenddesign from "./front.png";
 import aiImage from "./aiImage.png";
@@ -85,6 +86,7 @@ export {
   typescript,
   threejs,
   tokenswap,
+  durchex,
   communityhub,
   aiImage,
   frontenddesign,
@@ -98,6 +100,7 @@ export {
   tripguide,
   healthcare,
   sui, 
+  cyrus,
   aptos,
   move,
 };
