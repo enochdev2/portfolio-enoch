@@ -125,7 +125,7 @@ const technologies = [
   // },
   
   {
-    name: "Node JS",
+    name: "Node JS & Express JS",
     icon: nodejs,
   },
   {
