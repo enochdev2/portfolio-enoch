@@ -1,7 +1,6 @@
-
 import { AirplayIcon, NotepadText } from "lucide-react";
-import images from './images';
-import data from './data';
+import images from "./images";
+import data from "./data";
 import {
   mobile,
   backend,
@@ -41,7 +40,7 @@ import {
   frontenddesign,
   aptos,
   move,
-  sui
+  sui,
 } from "../assets";
 
 export const navLinks = [
@@ -89,7 +88,7 @@ const technologies = [
   // },
   {
     name: "CSS 3 and Tailwind CSS",
-    icon: tailwind ,
+    icon: tailwind,
   },
   {
     name: "JavaScript",
@@ -123,7 +122,7 @@ const technologies = [
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
-  
+
   {
     name: "Node JS & Express JS",
     icon: nodejs,
@@ -137,7 +136,6 @@ const technologies = [
   //   icon: threejs,
   // },
 
- 
   {
     name: "Sui Framework ",
     icon: sui,
@@ -166,7 +164,7 @@ const Mobiletechnologies = [
   },
   {
     name: " Tailwind CSS",
-    icon: tailwind ,
+    icon: tailwind,
   },
   {
     name: "JavaScript",
@@ -196,12 +194,12 @@ const Mobiletechnologies = [
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
-  
+
   // {
   //   name: "Next JS",
   //   icon: redux,
   // },
-  
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -242,6 +240,21 @@ const Mobiletechnologies = [
 
 const experiences = [
   {
+    title: "Lead Full-Stack Blockchain Developer",
+    company_name: "TetherZone",
+    icon: durchex,
+    iconBg: "#10182F",
+    date: "April 2025 – July 2025",
+    points: [
+      "Leading the development of a semi-decentralized platform for selling USDT in exchange for KRW, combining centralized oversight with decentralized transparency.",
+      "Implemented multilingual support (Korean/English), increasing regional accessibility and expanding the user base by 40%.",
+      "Collaborated with product and compliance teams to build a secure, regulation-friendly transaction flow.",
+      "Reduced frontend page load time by 35% via optimized components and efficient API architecture.",
+      "Contributed across both frontend (React) and backend (Node.js, MongoDB) systems to ensure seamless performance and scalability.",
+    ],
+  },
+
+  {
     title: "Blockchain Developer",
     company_name: "Durchex Ltd",
     icon: durchex,
@@ -249,10 +262,10 @@ const experiences = [
     date: "October 2024 - December 2024",
     points: [
       "Developed and deployed secure, efficient smart contracts for an NFT marketplace, ensuring seamless functionality and high reliability. ",
-      
+
       "Collaborated closely with the frontend team to integrate blockchain functionality, enhancing user experience and platform efficiency.",
 
-      "Optimized gas fees and transaction flows, resulting in reduced costs and faster processing for marketplace users. "
+      "Optimized gas fees and transaction flows, resulting in reduced costs and faster processing for marketplace users. ",
     ],
   },
   {
@@ -262,9 +275,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2024 - December 2024",
     points: [
-      "Engaged with members to address queries, resolve issues, and foster a positive environment, ensuring high member satisfaction.", 
-     " Monitored discussions to enforce community guidelines, maintaining a safe and respectful space for participants. ",  
-      "Gathered and analyzed community feedback, delivering actionable insights to the project team for product enhancements. "                 
+      "Engaged with members to address queries, resolve issues, and foster a positive environment, ensuring high member satisfaction.",
+      " Monitored discussions to enforce community guidelines, maintaining a safe and respectful space for participants. ",
+      "Gathered and analyzed community feedback, delivering actionable insights to the project team for product enhancements. ",
     ],
   },
   {
@@ -479,7 +492,13 @@ const projects = [
   },
 ];
 
-export { services, technologies, Mobiletechnologies, images, data,  experiences, testimonials, projects };
-
-
-
+export {
+  services,
+  technologies,
+  Mobiletechnologies,
+  images,
+  data,
+  experiences,
+  testimonials,
+  projects,
+};
