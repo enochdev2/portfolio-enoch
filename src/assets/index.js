@@ -37,6 +37,7 @@ import tesla from "./company/tesla.png";
 
 import healthcare from "./healthcare.png";
 import durchex from "./durchex.png";
+import tetherzone from "./tetherzone.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -67,6 +68,7 @@ export {
   mobile,
   web,
   github,
+  tetherzone,
   menu,
   close,
   css,

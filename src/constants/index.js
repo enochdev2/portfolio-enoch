@@ -12,6 +12,7 @@ import {
   css,
   cyrus,
   durchex,
+  tetherzone,
   reactjs,
   redux,
   tailwind,
@@ -242,7 +243,7 @@ const experiences = [
   {
     title: "Lead Full-Stack Blockchain Developer",
     company_name: "TetherZone",
-    icon: durchex,
+    icon: tetherzone,
     iconBg: "#10182F",
     date: "April 2025 – July 2025",
     points: [
@@ -351,6 +352,29 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "TetherZone USDT ↔ KRW Platform",
+    description:
+      "A semi-decentralized exchange platform enabling users to seamlessly sell USDT for KRW. Built with multilingual support (Korean/English). Key features include secure transaction flows, and scalable architecture using React, Node.js, and MongoDB.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tetherzone,
+    source_code_link: "https://github.com/enochdev2/Tether-P2P-exchange", // replace with your actual repo if public
+    liveDemo: "https://www.tetherzone-p2p.com", // replace with actual live demo URL if available
+  },
+
   {
     name: "Health_Care_App",
     description:
