@@ -129,7 +129,7 @@ const Navbar = () => {
           />
         </a>
         <a
-          href="https://x.com/Tech_Noch"
+          href="https://x.com/defiprinnce"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:block "
