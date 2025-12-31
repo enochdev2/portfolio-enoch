@@ -129,7 +129,7 @@ const Navbar = () => {
           />
         </a>
         <a
-          href="https://x.com/defiprinnce"
+          href="https://x.com/Multi_Chain_Dev"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:block "
