@@ -7,10 +7,10 @@ const Footer = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
       <p className="font-poppins font-normal w-full justi text-center text-purple-300 text-[18px] leading-[27px] text-purple-300">
-        Copyright Ⓒ 2025 Enoch Promise.
+        Copyright Ⓒ 2026 Enoch Promise.
       </p>
       <p className="font-poppins font-normal w-full justi text-center text-purple-300 text-[18px] leading-[27px] text-white">
-       @defi_prince. 
+       @Multi-Chain_Dev. 
       </p>
 
       {/* <div className="flex flex-row md:mt-0 mt-6">
